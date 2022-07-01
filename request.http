@@ -1,0 +1,8 @@
+### Get default time
+GET http://localhost:8000/api/time
+
+### Get time for specific timezone
+GET http://localhost:8000/api/time?tz=America/New_York
+
+### Get time for multiple timezones
+GET http://localhost:8000/api/time?tz=America/New_York,Asia/Kolkata
